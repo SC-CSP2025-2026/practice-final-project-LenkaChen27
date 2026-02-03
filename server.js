@@ -21,6 +21,6 @@ app.use(cors());
 app.use(express.static("website"));
 
 // Setup Server
-app.listen(8080, () => {
-  console.log("Server listening on http://localhost:8080");
+app.listen(4040, () => {
+  console.log("Server listening on http://localhost:4040");
 });
