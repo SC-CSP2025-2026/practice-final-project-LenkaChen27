@@ -137,21 +137,17 @@ fetch(url, options)
 Now that you've chosen your API, make sure you have a plan to meet the requirements. Answer the following questions in the README:
 
 **1. What is going to be your list?**
-(e.g., jokes from Dad Jokes API, weather forecasts from Weather API, movie results from IMDB API)
-
-[Your answer here]
+allRecipes — This list stores recipe objects fetched from the Chinese Food Database API. Each object contains recipe details such as ID, title, difficulty, portion, time, and an array of ingredients.
 
 **2. What is going to be your function with a parameter?**
 (e.g., `loadJokesByCategory` with the parameter `category`, `getWeatherByCity` with the parameter `cityName`)
 
-Describe how you are going to use the parameter in your code:
-
-[Your answer here]
+getRecipes(limit) — This function fetches a specified number of Chinese recipes based on the limit parameter (e.g., 5, 15, 20).
+getRecipeIngredients(recipeId) — This function fetches detailed ingredient information for a specific recipe using the recipeId parameter.
 
 **3. What is going to be your loop?**
-(e.g., loop to display jokes, loop to display forecast days, loop to display movie results)
-
-[Your answer here]
+For each recipe in All Recipes list
+For each ingredient in recipe ingredients list
 
 ---
 
@@ -583,7 +579,7 @@ Complete Google Doc about your project:
 
 Make a copy, fill it out, and paste the link below:
 
-[Replace with your Google Doc link]
+(https://docs.google.com/document/d/1wof3rMZT65kQpGyPOHIoK_uwynv4t2iuEW3COG9_PsY/edit?usp=sharing)
 
 ---
 
